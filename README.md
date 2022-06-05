@@ -17,7 +17,7 @@ Example html file: https://github.com/ajjaswal/new-profile/blob/main/dist/new.ht
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-## Table of Contents
+## Table of contents
  * [Installation](#installation)
  * [Contributors](#Contributors)
  * [Tests](#tests)
@@ -25,7 +25,7 @@ Example html file: https://github.com/ajjaswal/new-profile/blob/main/dist/new.ht
  ## Installation
  I used Inquirer, Jest, Node.js and Path for this project. 
 
- ## Contributers
+ ## Contributors
 
  I am the only contributor to this project.
 
