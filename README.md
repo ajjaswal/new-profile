@@ -6,7 +6,11 @@ I used mainly javascript to create a team profile generator that can be used to 
 
 ## Video Demonstration 
 
+https://user-images.githubusercontent.com/102101481/172074967-47163e27-caff-4e7d-af00-f7a1283c2264.mp4
+
 ## Links
 
-### Github Repo
+Github Repo: https://github.com/ajjaswal/new-profile
+
+Example html file: dist\new.html
 
