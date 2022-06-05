@@ -12,5 +12,23 @@ https://user-images.githubusercontent.com/102101481/172074967-47163e27-caff-4e7d
 
 Github Repo: https://github.com/ajjaswal/new-profile
 
-Example html file: go to "dist" directory and select "new.html" file. 
+Example html file: https://github.com/ajjaswal/new-profile/blob/main/dist/new.html 
 
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+
+## Table of Contents
+ * [Installation](#installation)
+ * [Contributors](#Contributors)
+ * [Tests](#tests)
+
+ ## Installation
+ I used Inquirer, Jest, Node.js and Path for this project. 
+
+ ## Contributers
+
+ I am the only contributor to this project.
+
+ ## Tests
+
+ I used Node.js and Jest for the tests. 
