@@ -1,9 +1,16 @@
 const Employee = require("../lib/employee");
 
-test("creates an employee section", () => {
-    const employee = new Employee("AJ", 2, "jaswalaj22@mail.com");
-    expect(employee.name).toEqual(expect.any(String));
-    expect(employee.email).toContain("@"); 
-    expect(employee.idNumber).toEqual(expect.any(Number));
-    
+
+describe("Employee", () => {
+  
+ 
+  describe("Employee object instantiation", () => {
+    it("Creates an object with name, id, and email properties", () => {
+      const employee = new Employee("AJ Jaswal", 1, "example@gmail.com");
+
+      expect(employee).toBeInstanceOf(Employee);
+      expect(employee.name).toEqual("AJ Jaswal");
+      expect(employee.id).toEqual(1);
+      expect(employee.email).toEqual("example@gmail.com");
+    });
   });
