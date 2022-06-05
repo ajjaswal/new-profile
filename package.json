@@ -1,6 +1,29 @@
 {
   "dependencies": {
-    "inquirer": "^8.2.4",
+    "inquirer": "^8.2.4"
+  },
+  "name": "new-profile",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "devDependencies": {
     "jest": "^28.1.0"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajjaswal/new-profile.git"
+  },
+  "author": "AJ Jaswal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajjaswal/new-profile/issues"
+  },
+  "homepage": "https://github.com/ajjaswal/new-profile#readme"
 }

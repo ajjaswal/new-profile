@@ -2,7 +2,7 @@ const Employee = require("../lib/employee");
 
 describe("Employee", () => {
   
-  describe("Employee object instantiation", () => {
+  describe("Employee object", () => {
     it("Creates an object with name, id, and email properties", () => {
       const employee = new Employee("AJ Jaswal", 1, "example@gmail.com");
 
