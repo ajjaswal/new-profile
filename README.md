@@ -14,13 +14,14 @@ Github Repo: https://github.com/ajjaswal/new-profile
 
 Example html file: https://github.com/ajjaswal/new-profile/blob/main/dist/new.html 
 
-## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
-
 ## Table of contents
+ * [License](#license)
  * [Installation](#installation)
  * [Contributors](#Contributors)
  * [Tests](#tests)
+
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
  ## Installation
  I used Inquirer, Jest, Node.js and Path for this project. 
