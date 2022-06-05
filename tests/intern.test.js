@@ -15,28 +15,28 @@ describe("Intern", () => {
   });
 
   describe("getName", () => {
-    it("Should return the object's name property", () => {
+    it("Should return the name property", () => {
       const intern = new Intern("AJ Jaswal;", 1, "example@gmail.com", "uconn");
 
       expect(intern.getName()).toEqual("AJ Jaswal;");});
   });
 
   describe("getId", () => {
-    it("Should return the object's id property", () => {
+    it("Should return the id property", () => {
       const intern = new Intern("AJ Jaswal;", 1, "example@gmail.com", "uconn");
 
       expect(intern.getID()).toEqual(1); });
   });
 
   describe("getEmail", () => {
-    it("Should return the object's email property", () => {
+    it("Should return the email property", () => {
       const intern = new Intern("AJ Jaswal;", 1, "example@gmail.com", "uconn");
 
       expect(intern.getEmail()).toEqual("example@gmail.com");});
   });
   
   describe("getGithub", () => {
-    it("Should return the object's Github property", () => {
+    it("Should return the school property", () => {
       const intern = new Intern("AJ Jaswal;", 1, "example@gmail.com", "uconn");
 
       expect(intern.getSchool()).toEqual("uconn");});

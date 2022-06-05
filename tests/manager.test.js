@@ -15,28 +15,28 @@ describe("Manager", () => {
   });
 
   describe("getName", () => {
-    it("Should return the object's name property", () => {
+    it("Should return the name property", () => {
       const manager = new Manager("AJ Jaswal;", 1, "example@gmail.com", 1112223333);
 
       expect(manager.getName()).toEqual("AJ Jaswal;");});
   });
 
   describe("getId", () => {
-    it("Should return the object's id property", () => {
+    it("Should return the id property", () => {
       const manager = new Manager("AJ Jaswal;", 1, "example@gmail.com", 1112223333);
 
       expect(manager.getID()).toEqual(1); });
   });
 
   describe("getEmail", () => {
-    it("Should return the object's email property", () => {
+    it("Should return the email property", () => {
       const manager = new Manager("AJ Jaswal;", 1, "example@gmail.com", 1112223333);
 
       expect(manager.getEmail()).toEqual("example@gmail.com");});
   });
   
   describe("getOffice", () => {
-    it("Should return the object's officeNumber property", () => {
+    it("Should return the officeNumber property", () => {
       const manager = new Manager("AJ Jaswal;", 1, "example@gmail.com", 1112223333);
 
       expect(manager.getOffice()).toEqual(1112223333);});

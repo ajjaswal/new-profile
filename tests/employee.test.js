@@ -13,21 +13,21 @@ describe("Employee", () => {
   });
 
   describe("getName", () => {
-    it("Should return the object's name property", () => {
+    it("Should return the name property", () => {
       const employee = new Employee("AJ Jaswal", 1, "example@gmail.com");
 
       expect(employee.getName()).toEqual("AJ Jaswal");});
   });
 
   describe("getId", () => {
-    it("Should return the object's id property", () => {
+    it("Should return the id property", () => {
       const employee = new Employee("AJ Jaswal", 1, "example@gmail.com");
 
       expect(employee.getID()).toEqual(1);});
   });
 
   describe("getEmail", () => {
-    it("Should return the object's email property", () => {
+    it("Should return the email property", () => {
       const employee = new Employee("AJ Jaswal", 1, "example@gmail.com");
 
       expect(employee.getEmail()).toEqual("example@gmail.com"); });
