@@ -3,7 +3,7 @@ const Employee = require("../lib/employee");
 describe("Employee", () => {
   
   describe("Employee object", () => {
-    it("Creates an object with name, id, and email properties", () => {
+    it("Creates name, id, and email properties", () => {
       const employee = new Employee("AJ Jaswal", 1, "example@gmail.com");
       expect(employee).toBeInstanceOf(Employee);
       expect(employee.name).toEqual("AJ Jaswal");
