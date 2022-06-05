@@ -12,5 +12,5 @@ https://user-images.githubusercontent.com/102101481/172074967-47163e27-caff-4e7d
 
 Github Repo: https://github.com/ajjaswal/new-profile
 
-Example html file: dist\new.html
+Example html file: go to "dist" directory and select "new.html" file. 
 
