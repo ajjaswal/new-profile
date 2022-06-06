@@ -36,4 +36,4 @@ Example html file: https://github.com/ajjaswal/new-profile/blob/main/dist/new.ht
 
  ## Tests
 
- I used Node.js and Jest for the tests. 
+ I used npm and Jest for the tests. 
